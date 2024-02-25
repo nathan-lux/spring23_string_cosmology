@@ -1,0 +1,29 @@
+\begin{thebibliography}{1}
+
+\bibitem{carroll}
+Sean Carroll.
+\newblock In {\em An {Introduction} to {General} {Relativity}, {Spacetime} and
+  {Geometry}}. Cambridge University Press, 2019.
+
+\bibitem{OGRe}
+Barak Shoshany.
+\newblock Ogre: An object-oriented general relativity package for mathematica.
+\newblock {\em Journal of Open Source Software}, 6(65):3416, 2021.
+
+\bibitem{TP_2015}
+Thomas~P Sotiriou.
+\newblock Black holes and scalar fields.
+\newblock {\em Classical and Quantum Gravity}, 32(21):214002, October 2015.
+
+\bibitem{TP_ZHOU}
+Thomas~P. Sotiriou and Shuang-Yong Zhou.
+\newblock Black hole hair in generalized scalar-tensor gravity.
+\newblock {\em Physical Review Letters}, 112(25), June 2014.
+
+\bibitem{gauss-bonnet}
+Thomas~P. Sotiriou and Shuang-Yong Zhou.
+\newblock Black hole hair in generalized scalar-tensor gravity: An explicit
+  example.
+\newblock {\em Physical Review D}, 90(12), December 2014.
+
+\end{thebibliography}

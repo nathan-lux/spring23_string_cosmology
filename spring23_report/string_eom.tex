@@ -1,0 +1,106 @@
+\documentclass[preprint]{ptephy_v1}
+\usepackage{xcolor} 
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{array}
+\usepackage{graphicx}% use this package if an eps figure is included.
+\usepackage{mathrsfs}
+\usepackage{multirow}
+\newcounter{questioncounter}
+\newcounter{equestioncounter}
+\setlength\parskip{5pt} \setlength\parindent{0in}
+\newcommand{\bea}{\begin{eqnarray*}}
+\newcommand{\eea}{\end{eqnarray*}}
+\newcommand{\beao}{\begin{eqnarray}}
+\newcommand{\eeao}{\end{eqnarray}}
+\newcommand{\no}{\noindent}
+\makeatletter
+\newcommand \Dotfill {\leavevmode \cleaders \hb@xt@ .5em{\hss .\hss }\hfill \kern \z@}
+\makeatother
+
+\begin{document}
+\title{Varying Actions in String Frame and Einstein Frame to Compare EOM and
+Phase Space Diagrams}
+\author{Nathan Burwig\\
+\small Arizona State University Department of Cosmology, Particle, and Astrophysics}
+
+\begin{abstract}
+    In this section of the paper we will aim to recover the string frame
+    equations of motion from Scott Watson's papers on string cosmology.
+    \vspace{-3pt}
+
+    \Dotfill
+\end{abstract}
+
+\maketitle
+\newpage
+\section{Varying The String Frame Action}
+    In this section we will attempt to derive the string frame equations of
+    motion from a general action and in doing so we will derive the Hamiltonian
+    constraint (ie one of the Friendmann Equations). We will use these
+    equations of motion to formulate a phase space for the dilaton and string
+    frame Hubble parameter, wherupon we will consider the same action in the
+    Einstein frame. A phase space in the Einstein frame for the actual dilaton
+    and the actual hubble parameter will be produced, and interpretations on
+    early universe (ie Hagerdorn and possibly post hagerdorn) phase dynamics
+    will be offered.
+
+    We will start with the string frame action in it's full form before
+    considering reductions and simplifications of the action.
+
+    \subsection{The Full Action}
+    The typical action considered in string cosmologies (as is done in
+    \cite{vafa} and \cite{kaloper}) is a general N-dimensional action which
+    allows us to include any general number of extensive dimensions (typically
+    here we will consider d=3).
+    \begin{equation}
+        S=\frac{1}{16\pi G_n} \int d^nx\sqrt{-g}e^{-2\phi}\left(
+        R+4g^{\mu\nu}\nabla_{\mu}\phi\nabla_{\nu}\phi-\frac{1}{12}
+        H_{\mu\nu\lambda}H^{\mu\nu\lambda} \right) + \int d^nx \mathcal{L}_m
+    \end{equation}
+    As is typical of the literature, the three form Einstein-Maxwell tensor
+    $H$ will not be important for this discussion and thus will be ignored from
+    the action. Considerations of the matter Lagrangian will in fact be
+    important, however alternatively it may be excluded from explicit
+    calculation in favor of simply asserting a form of the energy momentum
+    tensor which will also be explored to some extent.
+
+    If we ignore the three form tensor $H$, then we are left with the much
+    simpler action
+    \begin{equation}
+        S=\frac{1}{2\kappa_N} \int d^{N+1}x\;\sqrt{-g}\;e^{-\phi_s}\left(
+        R+(\partial \phi_s)^2 - \mathcal{L}_m \right)
+    \end{equation}
+    Which we can vary with respect to the string frame metric $g$ in a typical
+    fashion. The nontrivial coupling with the scalar field $\phi_s$, however it
+    is not disimilar to a Brans-Dicke action and thus it's variation is well
+    known to some extent.
+    
+    We consider the action in three parts, the variation of the Ricci scalar
+    which we know results in the typical field equations, then the variation of
+    the scalar field derivatives and matter Lagrangian with the determinant of
+    the metric. Considerations of the shape of the metric will be important, as
+    well as the specific form of the Ricci scalar as we can simply take the
+    timelike component of the action to determine the equations of motion. The
+    pure timelike component will result in the equivalent of the Friedmann
+    equation in the string frame (ie the Hamiltonian constraint) while the
+    equations of motion for $\phi_s$ and $\lambda_s$ (where $\lambda_s=\ln(a)$)
+    will not generically depend on the variation of the action with respect to
+    the metric and thus it doesn't matter if we consider the purely timelike
+    term or the whole action.
+
+    For what seems to be historical reasons it is typical to start with the
+    anisotropic FLRW metric 
+    \begin{equation}
+        ds^2=-n(t)^2dt^2+\sum_{i=1}^N\;e^{2\lambda_s^{(i)}(t)}dx_i^2
+    \end{equation}
+    And then consider specializations to isometric metrics (ie all
+    $\lambda_s^(i)$ in the metric are identical) and with
+    $a_s^{(i)}=e^{\lambda_s^{(i)}(t)}$. Then we can consider a new form of the
+    metric by determining the form of the Ricci scalar.
+
+    %% \newpage
+    %% \bibliographystyle{plain}
+    %% \bibliography{mybib}
+\end{document}

@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: report_rd0.aux
+The style file: plain.bst
+Database file #1: mybib.bib
+Warning--empty title in carroll
+You've used 5 entries,
+            2118 wiz_defined-function locations,
+            536 strings with 4660 characters,
+and the built_in function-call counts, 1302 in all, are:
+= -- 123
+> -- 47
+< -- 0
++ -- 19
+- -- 14
+* -- 91
+:= -- 234
+add.period$ -- 15
+call.type$ -- 5
+change.case$ -- 21
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 57
+empty$ -- 115
+format.name$ -- 14
+if$ -- 266
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 5
+newline$ -- 27
+num.names$ -- 10
+pop$ -- 20
+preamble$ -- 1
+purify$ -- 17
+quote$ -- 0
+skip$ -- 36
+stack$ -- 0
+substring$ -- 55
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 20
+warning$ -- 1
+while$ -- 12
+width$ -- 6
+write$ -- 55
+(There was 1 warning)
